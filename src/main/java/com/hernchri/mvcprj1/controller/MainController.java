@@ -10,4 +10,9 @@ public class MainController {
 	public String index(){
 		return "index";
 	}
+	
+	@RequestMapping("/bootstraptesting")
+	public String btest(){
+		return "bootstrap";
+	}
 }
